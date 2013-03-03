@@ -1,0 +1,64 @@
+@font-face {
+    font-family: fwoooshregular;
+    src: url('../fonts/fwooosh2-webfont.eot');
+    src: url('../fonts/fwooosh2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/fwooosh2-webfont.woff') format('woff'),
+         url('../fonts/fwooosh2-webfont.ttf') format('truetype'),
+         url('../fonts/fwooosh2-webfont.svg#fwoooshregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+a {
+    color: #ffffff;
+}
+
+.question {
+	width: auto;
+	margin: 0px auto;
+    font-size: 4em;
+}
+
+.questionmark {
+    margin: 0%;
+    font-size: 8em;
+}
+
+.links {
+    font-size: 2em;
+}
+
+.link {
+    font-family: fwoooshregular;
+    width: 1em;
+    display: inline-block;
+}
+
+.bg {
+    margin: auto;
+    position: relative;
+    margin-bottom: -.75em;
+    background-color: #ffffff;
+    width: .9em;
+    height: .7em;
+    z-index: -1;
+}
+
+.soundcloud {
+    text-decoration: none;
+    border: 0px none;
+    color: #fc3908;
+}
+
+.twitter {
+    text-decoration: none;
+    border: 0px none;
+    color: #159aea;
+}
