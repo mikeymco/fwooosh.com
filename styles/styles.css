@@ -10,6 +10,12 @@
 
 }
 
+@media all and (max-height: 900px) {
+  body {
+    font-size: 75%;
+  }
+}
+
 body {
 	background-color: #000000;
     color: #ffffff;
@@ -28,11 +34,24 @@ a {
 
 .questionmark {
     margin: 0%;
-    font-size: 8em;
+    font-size: 9em;
+}
+
+@media all and (max-height: 600px) {
+  .questionmark {
+    font-size: 5em;
+  }
 }
 
 .links {
+    font-size: 3em;
+}
+
+
+@media all and (max-height: 600px) {
+  .links {
     font-size: 2em;
+  }
 }
 
 .link {
